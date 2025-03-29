@@ -13,6 +13,10 @@
             margin: 0;
             padding: 0;
             height: 100%;
+            background-image: url("https://i.ibb.co/99gckzkq/Background.png");
+            background-position: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
             overflow-x: hidden;
         }
         .a1{
@@ -27,10 +31,11 @@
             animation: key 5s forwards;
         }
         @keyframes key{
-            0% { color: black; text-shadow: 10px 10px 50px; padding-left: 40%; }
-            33% { color: white; text-shadow: 10px 10px 50px; padding-left: 40%; }
-            66% { color: white; text-shadow: 10px 10px 5px; padding-left: 40%; }
-            100% { color: white; text-shadow: 10px 10px 5px; padding-left: 10%;}
+            0% { color: black; text-shadow: 10px 10px 50px; padding-left: 40%; background-color: black; }
+            25% { color: white; text-shadow: 10px 10px 50px; padding-left: 40%; background-color: black; }
+            50% { color: white; text-shadow: 10px 10px 5px; padding-left: 40%; background-color: black; }
+            75% { color: white; text-shadow: 10px 10px 5px; padding-left: 10%; background-color: black; }
+            100% { color: white; text-shadow: 10px 10px 5px; padding-left: 10%; background-color: rgba(0, 0, 0, 0.5); backdrop-filter: blur(10px);}
         }
     </style>
 </head>
@@ -40,4 +45,4 @@
     </body>
 </body>
 </html>
-<!--Versión 1.0.1.2-->
+<!--Versión 1.0.1.3-->
