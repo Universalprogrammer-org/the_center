@@ -1,0 +1,27 @@
+body{
+    background-image: url("https://i.ibb.co/PvVMk5sb/Background2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.a1{
+    text-align: center;
+    top: 50%;
+    left: 45%;
+    text-decoration: none;
+    color: white;
+    user-select: none;
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    transition: 1s;
+    background-color: gray;
+}
+.a1:hover{
+    transition: 1s;
+    display: inline-block;
+    transform: rotateY(45deg) rotateZ(45deg);
+    transform: scale(40px);
+}
+/*Versión 1.0.1.1*/
