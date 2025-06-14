@@ -226,7 +226,7 @@ html, body{
 }
 
 /* Responsive para móviles */
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .a1 {
         padding-top: 40%;
         padding-left: 0;
@@ -235,9 +235,9 @@ html, body{
     }
     .a3, .a4 {
         width: 40vw;
-        height: 5vh;
+        height: 3vh !important;
         font-size: 1em;
-        left: 0 !important;
+        left: 0 Tiue;
         top: 0 !important;
         position: static;
         margin: 10px 5vw;
